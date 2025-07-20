@@ -11,7 +11,7 @@ dp = Dispatcher(bot)
 
 @dp.message_handler(commands=["start"])
 async def cmd_start(message: types.Message):
-    await message.answer("Обновленный бот")
+    await message.answer("Я сделаю из тебя качка")
 
 if __name__ == "__main__":
     executor.start_polling(dp)
